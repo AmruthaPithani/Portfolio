@@ -1,0 +1,131 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('background.jpg') no-repeat center center fixed; /* Add a background image for the entire body */
+    background-size: cover;
+    color: #333; /* Darker gray text for readability */
+    padding: 20px;
+    font-size: 18px; /* Increase the base font size for the body */
+}
+
+header {
+    background: rgba(255, 182, 193, 0.9); /* Light pink background for header with transparency */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Center the heading */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 2em; /* Increase font size for header text */
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background: rgba(173, 216, 230, 0.9); /* Light blue background for sidebar with transparency */
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 1.2em; /* Increase font size for sidebar text */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em; /* Increase font size for sidebar links */
+}
+
+.sidebar ul li a:hover {
+    background: #add8e6; /* Slightly darker light blue on hover */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    font-size: 1.1em; /* Increase font size for content text */
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+footer {
+    background: rgba(255, 182, 193, 0.9); /* Light pink background for footer with transparency */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2em; /* Increase font size for footer text */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1em; /* Increase font size for form labels */
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    font-size: 1.1em; /* Increase font size for form inputs, textareas, and buttons */
+}
+
+form input, form textarea {
+    background: rgba(173, 216, 230, 0.9); /* Light blue background for form fields with transparency */
+    color: #333; /* Darker gray text */
+}
+
+form button {
+    background-color: #ffb6c1; /* Light pink for button */
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff69b4; /* Darker pink on hover */
+}
+
+#portfolioDisplay {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for display */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    font-size: 1.1em; /* Increase font size for portfolio display */
+}

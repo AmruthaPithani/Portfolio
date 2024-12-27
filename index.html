@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#register" class="nav-link">Register</a></li>
+                <li><a href="#login" class="nav-link">Login</a></li>
+                <li><a href="#create" class="nav-link">Create Portfolio</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <section id="about" class="content-section">
+                <h2>About</h2>
+                <p>Welcome to the Portfolio Creator! Register or log in to create your own portfolio.</p>
+                <h3>What is Portfolio Creator?</h3>
+                <p>The Portfolio Creator is a platform that allows individuals to create and showcase their professional portfolios online. It provides a user-friendly interface for users to register, log in, and build personalized portfolios with information about their skills, projects, and experiences.</p>
+                <h3>Why Use Portfolio Creator?</h3>
+                <ul>
+                    <li><strong>Professional Representation:</strong> Present a polished and professional image to potential employers, clients, and collaborators.</li>
+                    <li><strong>Accessibility:</strong> Easily accessible from anywhere in the world, making it convenient for showcasing your work to a global audience.</li>
+                    <li><strong>Versatility:</strong> Suitable for various professions, including designers, developers, writers, artists, photographers, and more.</li>
+                    <li><strong>Personal Branding:</strong> Helps establish and promote your personal brand by presenting your unique style and approach.</li>
+                    <li><strong>Networking:</strong> Facilitates networking opportunities by providing a point of contact for interested parties.</li>
+                </ul>
+                <h3>Features</h3>
+                <ul>
+                    <li><strong>User Registration:</strong> Easily create an account to start building your portfolio.</li>
+                    <li><strong>Login:</strong> Securely log in to manage and update your portfolio.</li>
+                    <li><strong>Portfolio Creation:</strong> Add and showcase your skills, projects, and experiences in a structured format.</li>
+                    <li><strong>Dynamic Display:</strong> View your portfolio in a visually appealing and interactive format.</li>
+                </ul>
+            </section>
+            <section id="register" class="content-section">
+                <h2>Register</h2>
+                <form id="registerForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                    <label for="bio">Bio:</label>
+                    <textarea id="bio" name="bio" required></textarea>
+                    <button type="submit">Register</button>
+                </form>
+            </section>
+            <section id="login" class="content-section">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="loginUsername">Username:</label>
+                    <input type="text" id="loginUsername" name="loginUsername" required>
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                    <button type="submit">Login</button>
+                </form>
+            </section>
+            <section id="create" class="content-section">
+                <h2>Create Portfolio</h2>
+                <form id="portfolioForm">
+                    <label for="aboutMe">About Me:</label>
+                    <textarea id="aboutMe" name="aboutMe" required></textarea>
+                    <label for="projects">Projects:</label>
+                    <textarea id="projects" name="projects" required></textarea>
+                    <label for="skills">Skills:</label>
+                    <textarea id="skills" name="skills" required></textarea>
+                    <button type="submit">Save Portfolio</button>
+                </form>
+                <div id="portfolioDisplay" style="display: none;">
+                    <h2>Your Portfolio</h2>
+                    <div id="displayAboutMe"></div>
+                    <div id="displayProjects"></div>
+                    <div id="displaySkills"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Portfolio Creator</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
