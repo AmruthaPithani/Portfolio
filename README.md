@@ -24,6 +24,7 @@ CSS3 — Styling, animations, responsive design
 JavaScript (Vanilla) — Interactivity and dynamic elements
 
 📝 Personalization Instructions
+
 ⚠️ Note: Before publishing or sharing your portfolio, make sure to complete the following:
 
 Replace the placeholder image in the About section with your own photograph. Place the image in the images/ folder and update the <img> tag in the HTML.
