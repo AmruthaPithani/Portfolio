@@ -23,17 +23,6 @@ CSS3 — Styling, animations, responsive design
 
 JavaScript (Vanilla) — Interactivity and dynamic elements
 
-📁 Project Structure
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   └── (profile picture and project images)
-├── resume/
-│   └── your_resume.pdf
-└── README.md
 📝 Personalization Instructions
 ⚠️ Note: Before publishing or sharing your portfolio, make sure to complete the following:
 
